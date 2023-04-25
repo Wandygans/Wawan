@@ -312,7 +312,7 @@ conn.sendFile = async (jid, path, filename = '', caption = '', quoted, ptt = fal
     conn.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
-        console.log('close') bisa
+        console.log('close')
         }
         console.log('Connected...', update)
     })
